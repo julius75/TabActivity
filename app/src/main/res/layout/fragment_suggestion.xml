@@ -3,12 +3,35 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="12dp"
     tools:context=".SuggestionFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ImageButton
+        android:id="@+id/imagebtn"
+        android:src="@drawable/ic_add_black_24dp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="250dp"
+        />
+
+    <EditText
+        android:layout_marginTop="280dp"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:hint="Topic"
+        />
+
+    <EditText
+        android:hint="Suggestion"
+        android:layout_marginTop="340dp"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:text="Submit"
+        />
 
 </FrameLayout>
