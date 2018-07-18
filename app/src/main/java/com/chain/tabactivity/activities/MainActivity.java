@@ -1,4 +1,4 @@
-package com.chain.tabactivity;
+package com.chain.tabactivity.activities;
 
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
@@ -8,6 +8,11 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
+
+import com.chain.tabactivity.Interface.IdeasFragment;
+import com.chain.tabactivity.R;
+import com.chain.tabactivity.Interface.SuggestionFragment;
+import com.chain.tabactivity.Interface.ViewPagerAdapter;
 
 public class MainActivity extends AppCompatActivity {
     Toolbar toolbar;

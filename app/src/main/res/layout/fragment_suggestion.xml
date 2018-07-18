@@ -3,35 +3,53 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="12dp"
-    tools:context=".SuggestionFragment">
+    tools:context=".Interface.SuggestionFragment">
 
     <ImageButton
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
         android:id="@+id/imagebtn"
-        android:src="@drawable/ic_add_black_24dp"
+        android:src="@drawable/baseline_note_add_white_48dp"
         android:layout_width="match_parent"
-        android:layout_height="250dp"
+        android:layout_height="150dp"
         />
 
     <EditText
-        android:layout_marginTop="280dp"
+        android:ems="5"
+        android:layout_marginLeft="20dp"
+        android:inputType="text"
+        android:layout_marginTop="158dp"
         android:layout_width="match_parent"
-        android:layout_height="25dp"
+        android:layout_height="wrap_content"
+        android:maxLines="3"
+        android:padding="10dp"
         android:hint="Topic"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/input_outline"
         />
 
     <EditText
+        android:padding="25dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:maxLines="4"
+        android:background="@drawable/input_outline"
         android:hint="Suggestion"
-        android:layout_marginTop="340dp"
+        android:layout_marginTop="224dp"
         android:layout_width="match_parent"
-        android:layout_height="25dp"
+        android:layout_height="wrap_content"
+
         />
 
     <Button
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="440dp"
-        android:text="Submit"
-        />
+        android:layout_marginTop="315dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:padding="18dp"
+        android:text="Submit Suggestion"
+        tools:fontFamily="@font/abril_fatface" />
 
 </FrameLayout>

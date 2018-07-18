@@ -1,10 +1,12 @@
-package com.chain.tabactivity;
+package com.chain.tabactivity.activities;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import com.chain.tabactivity.R;
 
 public class LoginActivity extends AppCompatActivity {
     private Button login;
