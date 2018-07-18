@@ -15,6 +15,7 @@ import com.chain.tabactivity.Interface.SuggestionFragment;
 import com.chain.tabactivity.Interface.ViewPagerAdapter;
 
 public class MainActivity extends AppCompatActivity {
+
     Toolbar toolbar;
     TabLayout tabLayout;
     ViewPager viewPager;

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1098632796612",
+    "firebase_url": "https://tabactivity-25613.firebaseio.com",
+    "project_id": "tabactivity-25613",
+    "storage_bucket": "tabactivity-25613.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098632796612:android:9d3d1e68956e2e5b",
+        "android_client_info": {
+          "package_name": "com.chain.tabactivity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1098632796612-ke10dtjc69h5kp3tvlnss5b5akg80ij6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chain.tabactivity",
+            "certificate_hash": "96ae59965ba6c1dadbe412ab7989f129fd7f41b5"
+          }
+        },
+        {
+          "client_id": "1098632796612-8cjdhl94urhfa0nr0d506a6k5gbv15mp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBg7eLSK6tad5AP2zeqjXsZSL1mERi2m08"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1098632796612-8cjdhl94urhfa0nr0d506a6k5gbv15mp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
